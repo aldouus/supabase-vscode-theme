@@ -1,0 +1,21 @@
+{
+  "name": "supabase",
+  "displayName": "Supabase",
+  "description": "Superbase style VS code theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Supabase",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Supabase-color-theme.json"
+      }
+    ]
+  }
+}
