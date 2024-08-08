@@ -1,7 +1,7 @@
 {
-  "name": "supabase",
-  "displayName": "Supabase",
-  "description": "Superbase style VS code theme",
+  "name": "supabase-vscode-theme",
+  "displayName": "Supabase Theme",
+  "description": "Supabase inspired VS code theme",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.91.0"
@@ -12,10 +12,15 @@
   "contributes": {
     "themes": [
       {
-        "label": "Supabase",
+        "label": "Supabase Theme (Dark)",
         "uiTheme": "vs-dark",
         "path": "./themes/Supabase-color-theme.json"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aldouus/supabase-vscode-theme"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
