@@ -20,7 +20,7 @@
     "diffEditor.removedLineBackground": "#3ecf8e15",
     "editorInlayHint.foreground": "#a0a0a0",
     "editorInlayHint.background": "#1C1C1C",
-    "sideBar.background": "#161616",
+    "sideBar.background": "#131313",
     "sideBarTitle.foreground": "#a0a0a0",
     "sideBarSectionHeader.foreground": "#a0a0a0",
     "sideBarSectionHeader.background": "#161616",
@@ -32,8 +32,8 @@
     "titleBar.inactiveBackground": "#161616",
     "titleBar.activeForeground": "#7e7e7e",
     "titleBar.inactiveForeground": "#707070",
-    "tab.border": "#161616",
-    "tab.activeBackground": "#161616",
+    "tab.border": "#202020",
+    "tab.activeBackground": "#1a1a1a",
     "tab.inactiveBackground": "#161616",
     "statusBar.debuggingForeground": "#FFF",
     "statusBar.debuggingBackground": "#3ecf8e",
@@ -189,6 +189,14 @@
       }
     },
     {
+      "name": "Function parameters",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#f0c8a2"
+      }
+    },
+
+    {
       "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
       "scope": [
         "constant.numeric",
@@ -301,6 +309,14 @@
       }
     },
     {
+      "name": "HTML Angle Brackets",
+      "scope": "punctuation.definition.tag",
+      "settings": {
+        "foreground": "#d8d8d8"
+      }
+    },
+
+    {
       "name": "Inherited classes",
       "scope": ["entity.other.inherited-class"],
       "settings": {
@@ -365,6 +381,14 @@
         "foreground": "#a0a0a0"
       }
     },
+    {
+      "name": "JSON Property Keys",
+      "scope": ["support.type.property-name.json", "meta.object-literal.key"],
+      "settings": {
+        "foreground": "#eeeeee"
+      }
+    },
+
     {
       "name": "Markdown - Plain",
       "scope": [
