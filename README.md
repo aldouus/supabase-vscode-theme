@@ -6,7 +6,7 @@ Not affiliated with Supabase.
 
 What it looks like:
 <br />
-[Screenshot]("screenshot.png")
+<img src="./screenshot.png" alt="preview" width="100%" style="border-radius: 8px" />
 
 
 ## Installing `vsce`
