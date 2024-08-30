@@ -1,14 +1,13 @@
 # Supabase VS Code Theme
 
-**Supabase** is a custom VS Code theme inspired by the Supabase design. This README will guide you through the steps to install `vsce`, package the extension, and install it in VS Code.
+A Supabase inspired VS Code theme.
 
-## Table of Contents
+Not affiliated with Supabase.
 
-1. [Installing `vsce`](#installing-vsce)
-2. [Packaging the Extension](#packaging-the-extension)
-3. [Installing the Extension in VS Code](#installing-the-extension-in-vs-code)
-4. [Development](#development)
-5. [License](#license)
+What it looks like:
+<br />
+[Screenshot]("screenshot.png")
+
 
 ## Installing `vsce`
 
