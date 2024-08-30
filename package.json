@@ -1,10 +1,19 @@
 {
-  "name": "supabase-vscode-theme",
-  "displayName": "Supabase Theme",
-  "description": "Supabase inspired VS code theme",
+  "name": "supabase-vscode-theme-dark",
+  "displayName": "Supabase Theme (Dark)",
+  "publisher": "aldous",
+  "license": "MIT",
+  "icon": "icon.png",
+  "readme": "DEMO.md",
+  "author": {
+    "name": "Matthew Y.",
+    "twitter": "https://x.com/themattjnr",
+    "github": "https://github.com/matthewyoungjr"
+  },
+  "description": "Supabase inspired VS code theme (not affiliated with Supabase)",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.91.0"
+    "vscode": "^1.0.0"
   },
   "categories": [
     "Themes"
